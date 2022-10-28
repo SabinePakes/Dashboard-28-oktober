@@ -1,0 +1,139 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: whitesmoke;
+}
+
+.header {
+  background-color:darkcyan;
+  color: white;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  display: flex;
+  align-content: center;
+}
+
+.logo {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  height: 170px;
+  width: auto;
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: lightblue;
+  display: flex;
+  justify-content: left;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  color: lightseagreen;
+}
+
+button {
+  background-color:cyan;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 5px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: lightseagreen; 
+}
+
+.student-list {
+  display: grid;
+  grid-template-columns: 240px 240px 240px 240px 240px;
+  grid-template-rows: auto auto;
+  list-style-type: none;
+}
+
+.list-item {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 15px;
+  padding: 15px;
+  font-size: 13px;
+}
+
+.studentimg {
+  border: 2px solid cyan;
+  border-radius: 100px;
+}
+
+.graphlegend {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.graphlegend p {
+  margin: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2px;
+}
+
+.difficulty-block {
+  height: 25px;
+  width: 25px;
+  background-color:royalblue;
+  margin-right: 10px;
+}
+
+.fun-block {
+  height: 25px;
+  width: 25px;
+  background-color: orange;
+  margin-left: 10px;
+}
+
+.legend {
+  display: flex;
+}
+
+
+
+.contact input[type="text"],
+textarea {
+  width: 25%;
+  padding: 15px;
+  border: 1px solid ;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  resize: vertical;
+}
+
+.selectstudents form {
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+input[type="checkbox"] {
+  position: relative;
+  width: 1.5em;
+  height: 1.5em;
+  margin-left: 20px;
+}
