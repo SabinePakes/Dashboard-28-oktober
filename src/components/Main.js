@@ -4,7 +4,9 @@ import GraphComponent from './GraphComponent.js';
 import SelectStudent from './SelectStudent.js';
 import students from './data/student-data.js';
 import assignments from './data/assignment-data.js';
+// eslint-disable-next-line
 import {BrowserRouter as Router, Route, Link, Routes} from 'react-router-dom';
+
 
 class Main extends Component {
   constructor() {
